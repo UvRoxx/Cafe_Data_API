@@ -1,0 +1,23 @@
+Get A Random Cafe
+http://127.0.0.1:5000/random
+This will return a random cafe from the Database
+
+Get All Cafes
+http://127.0.0.1:5000/all
+This will return all the cafes present within the Database as a List of Dictionaries
+
+Search Cafe By Location Name
+http://127.0.0.1:5000/search
+This takes location name and returns the first cafe present at that location
+
+Add a Cafe
+http://127.0.0.1:5000/add
+This is a POST method and accepts all the value of the cafe object and addes it to the database.
+
+Update Price
+http://127.0.0.1:5000/update/cafe-id
+This method accepts the cafe Id and changes the price value within the Database.
+
+Delete Cafe
+http://127.0.0.1:5000/delete/api-key
+This method accepts an api-key for authrntication ad expects a cafe-id and then deletes the cafe from the database.
